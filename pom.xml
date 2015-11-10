@@ -8,5 +8,13 @@
     <artifactId>storm-explorer</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.storm</groupId>
+            <artifactId>storm-core</artifactId>
+            <version>0.9.5</version>
+            <!--<scope>provided</scope>-->
+        </dependency>
+    </dependencies>
 
 </project>
